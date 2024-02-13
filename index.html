@@ -18,15 +18,18 @@
     <div class="container">
       <h1 class="title">World Clock</h1>
       <div class="cities-dropdown">
-        <select class="cities">
+        <select class="cities" id="city">
           <option value="">Select a city...</option>
-          <option value="">Montreal</option>
-          <option value="">Buenos Aires</option>
-          <option value="">Tokyo</option>
-          <option value="">Sao Paulo</option>
+          <option value="America/Toronto">Montreal 🇨🇦</option>
+          <option value="America/Argentina/Buenos_Aires">
+            Buenos Aires 🇦🇷
+          </option>
+          <option value="Asia/Tokyo">Tokyo 🇯🇵</option>
+          <option value="America/Sao_Paulo">Sao Paulo 🇧🇷</option>
+          <option value="Pacific/Auckland">Auckland 🇳🇿</option>
         </select>
       </div>
-      <div class="city-container">
+      <div class="city-container" id="cities-container">
         <div class="city" id="halifax">
           <div>
             <h2 class="destination">Halifax 🇨🇦</h2>
