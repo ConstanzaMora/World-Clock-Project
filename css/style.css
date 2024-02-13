@@ -42,13 +42,17 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+.city-container {
+  display: flex;
+  flex-direction: column;
+}
 .city {
   background-color: whitesmoke;
   color: rgb(69, 69, 69);
   opacity: 0.87;
   border-radius: 10px;
   padding: 16px;
-  margin: 6px;
+  margin: 8px;
   transition: all 300ms ease-in-out;
   display: flex;
   justify-content: space-between;
