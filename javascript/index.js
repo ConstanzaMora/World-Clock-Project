@@ -31,7 +31,11 @@ let selectedCityIntervalID;
 function updateCity(event) {
   let cityTimeZone = event.target.value;
   let cityName = event.target[event.target.selectedIndex].label; // .replace("_", " ").split("/")[1];
+
   if (cityTimeZone.length === 0) return;
+  if (cityTimeZone === "current") {
+    cityTimeZone = moment.tz.guess();
+  }
 
   let cityTime = moment().tz(cityTimeZone);
   let citiesElement = document.querySelector("#cities-container");
