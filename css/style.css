@@ -27,7 +27,7 @@ body {
   padding: 20px;
   margin: 8px;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
-  font-style: normal;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .cities {
@@ -36,7 +36,7 @@ body {
   border-radius: 4px;
   width: 100%;
   border: 2px solid #6d92c0;
-  font-size: 16px;
+  font-size: 14px;
   display: block;
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
@@ -103,5 +103,5 @@ footer {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
+  font-size: 13px;
 }
